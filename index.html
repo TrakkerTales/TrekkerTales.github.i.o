@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Aplikasi To-Do List Saya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="kotak-biru">
+            <h2>Aplikasi To-Do List</h2>
+            <p>Ketik tugas baru di bawah ini, lalu klik tombol tambah.</p>
+            <input type="text" id="input-tugas" placeholder="Contoh: Belajar JavaScript">
+            <button onclick="tambahTugas()">Tambah Tugas</button>
+            <h3>Daftar Tugas:</h3>
+            <ul id="daftar-tugas"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Dibuat oleh Sang Pemrogram.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

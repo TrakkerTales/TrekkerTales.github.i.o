@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Tentang Saya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="kotak-biru">
+            <h2>Tentang Sang Pemrogram</h2>
+            <p>Ini adalah halaman yang menceritakan tentang perjalanan saya dalam belajar membuat website dari nol dengan bantuan Aura. "Perlahan tapi pasti" adalah moto dalam setiap petualangan ini.</p>
+            <p>Saya telah belajar tentang HTML, CSS, dan JavaScript untuk menciptakan aplikasi yang interaktif dan fungsional.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Dibuat oleh Sang Pemrogram.</p>
+    </footer>
+
+</body>
+</html>

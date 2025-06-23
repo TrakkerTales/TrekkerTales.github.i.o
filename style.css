@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Memberi ruang untuk footer */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.kotak-biru {
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px; /* Jarak di luar kotak untuk layar besar */
+}
+
+h1, h2, h3 {
+    color: navy;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#daftar-tugas li {
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 5px solid navy;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#daftar-tugas li.selesai {
+    text-decoration: line-through;
+    color: grey;
+    border-left: 5px solid grey;
+}
+
+.tombol-hapus {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ======================================= */
+/* MANTRA UNTUK LAYAR KECIL (DI BAWAH 768px) */
+/* ======================================= */
+@media (max-width: 768px) {
+    
+    .kotak-biru {
+        margin: 10px; /* Mengurangi jarak di luar kotak */
+        padding: 15px;
+    }
+
+    /* Membuat gambar tidak keluar dari kotak */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /* Membuat item di daftar tugas tidak terlalu rapat */
+    #daftar-tugas li {
+        flex-direction: column; /* Menumpuk teks dan tombol ke bawah */
+        align-items: flex-start; /* Meratakan semuanya ke kiri */
+    }
+
+    .tombol-hapus {
+        margin-top: 10px; /* Memberi jarak antara teks dan tombol hapus */
+    }
+}
